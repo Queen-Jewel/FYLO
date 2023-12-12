@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* NAV BAR */
+nav {
+  margin: 20px 50px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.nav li {
+  padding: 0 15px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* SHOWCASE */
+.showcase {
+  margin: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.show {
+  padding: 80px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.show h1 {
+  font-size: 32px;
+}
+.show p {
+  padding: 15px 60px 15px 0;
+  font-size: 14px;
+}
+
+ form input {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 70px 6px 20px;
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #3065f9;
+  color: #fff;
+  padding: 12px 50px 10px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+form button:hover{
+  background-color: #b1e1df;
+  color: black;
+}
+.case img {
+  padding: 0 30px 0 10px;
+  width: 750px;
+  height: 380px;
+}
+
+/* TESTIMONY */
+.container3 {
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  background-color: #f2f0fd;
+}
+.testimony {
+  display: flex;
+  margin: 300px 0 80px 50px;
+  justify-content: space-between;
+}
+
+.test1 {
+  font-family: "Open Sans", sans-serif;
+}
+.test1 h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.test1 .par {
+  padding: 15px 190px 15px 0;
+  font-size: 14px;
+}
+.test1 .par p {
+  line-height: 23px;
+}
+.test1 .par p:nth-child(1) {
+  padding-bottom: 20px;
+}
+
+.test1 a {
+  text-decoration: none;
+  color: #3f9c87;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+a img {
+  width: 20px;
+  height: 15px;
+  padding-bottom: -80px;
+  padding-left: 5px;
+  margin-bottom: -5px;
+}
+
+.last a:hover {
+  color: #b1e1df;
+}
+img .arr:hover {
+  color: #b1e1df;
+}
+hr {
+  width: 150px;
+  border: 0.5px solid #3f9c87;
+}
+hr:hover {
+  color: #b1e1df;
+}
+
+.tasty {
+  box-shadow: 2px 2px 5px 2px rgba(106, 103, 103, 0.3);
+  background: #fff;
+  margin: 50px 435px 40px 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+}
+
+.tasty p {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.testimonal {
+  display: flex;
+  margin-top: 5px;
+  padding: 10px 40px 8px 0;
+}
+
+.testimonal img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.user {
+  padding-left: 4px;
+}
+.user h3 {
+  font-size: 12px;
+}
+.user p {
+  font-size: 10px;
+}
+.test2 img {
+  padding-top: 30px;
+  width: 600px;
+  height: 400px;
+}
+
+/* SIGN-UP */
+
+.sign-up {
+  background-color: #575989;
+}
+.container4 {
+  margin: 60px 0 0 50px;
+  padding: 50px 0;
+  display: flex;
+  width: 90%;
+  /* justify-content: space-between; */
+}
+.early {
+  width: 650px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.early h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.early p {
+  font-size: 16px;
+}
+
+.started {
+  margin-left: 300px;
+}
+
+ .started input {
+  padding: 13px 150px 5px 20px;
+  border: transparent;
+  border-radius: 3px;
+}
+
+form #btn {
+  margin-top: 10px;
+  padding: 13px 20px 5px 20px;
+  background-color: #3066fb;
+  border: transparent;
+  color: white;
+}
+form #btn:hover{
+  background-color: #b1e1df;
+  color: black;
+}
+
+/* FOOTER */
+#foot {
+  background-color: #07043b;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 200px 40px 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.foot1 img {
+  padding-bottom: 20px;
+}
+
+.sub {
+  color: white;
+  display: flex;
+  font-size: 14px;
+}
+
+.sub img {
+  padding-right: 20px;
+}
+.foot2 {
+  padding: 50px 0 0 0 ;
+}
+.foot2 ul {
+  list-style: none;
+}
+.about a {text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.about li {
+  padding-bottom: 15px;
+}
+.about a:hover{
+  color: #3065f9;
+}
+.foot3 {
+  padding: 50px 50px 50px 100px;
+}
+.foot3 img {
+  padding-right: 5px;
+}
+.ig {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 3px;
+}
