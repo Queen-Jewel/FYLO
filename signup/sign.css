@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 5px 5px 5px 2px rgb(220, 206, 206);
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+.head {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head h2 {
+  padding: 20px 0 40px 0;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: solid;
+}
+
+.sign {
+  padding: 10px;
+  position: relative;
+}
+input {
+  border: transparent;
+  border-bottom: 1px solid rgb(192, 186, 186);
+  padding: 0 60px 10px 0;
+  outline: none;
+  text-align: left;
+  font-size: 14px;
+}
+.fas {
+  width: 25px;
+  height: 25px;
+}
+
+button {
+    margin-top: 30px;
+  padding: 12px 100px;
+  border-radius: 10px;
+  border: transparent;
+  background: linear-gradient(to right, hsl(170, 45%, 43%),hsl(224, 93%, 58%));
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+button:hover {
+  background: linear-gradient(to right, hsl(224, 93%, 58%),hsl(170, 45%, 43%));
+}
+
+.dont {
+  padding: 100px 0 10px 40px;
+  font-size: 12px;
+  color: gray;
+}
+.dont a {
+  text-decoration: none;
+  color: rgb(122, 173, 190);
+}
