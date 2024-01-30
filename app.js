@@ -1,17 +1,26 @@
 const button = document.querySelector(".btn");
 const button2 = document.querySelector("#btn");
+const useremail = document.querySelector("#email").value;
 
 let getStart = (e) => {
-e.preventDefault();
+  e.preventDefault();
 
-window.location.href = 'signup/sign.html';
-}
+  if (useremail === "") {
+    alert("Insert Email!");
+  } else {
+    window.location.href = "signup/sign.html";
+  }
+};
 
-button.addEventListener('click', getStart)
+button.addEventListener("click", getStart);
 let getStart2 = (e) => {
-e.preventDefault();
+  e.preventDefault();
 
-window.location.href = 'signup/sign.html';
-}
+  if (useremail === "") {
+    alert("Insert Email!");
+  } else {
+    window.location.href = "signup/sign.html";
+  }
+};
 
-button2.addEventListener('click', getStart2)
+button2.addEventListener("click", getStart2);
